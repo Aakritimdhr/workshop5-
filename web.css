@@ -1,0 +1,288 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&family=Dancing+Script&family=PT+Serif&family=Playfair+Display&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-wrapper {
+  width: 50%;
+  background-color:rgb(177, 53, 53) ;
+  padding: 5%;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 50px;
+  font-family: 'PT Serif', serif;
+  font-weight: 100;
+}
+
+
+h2 {
+  margin-bottom: 140px;
+  font-weight: 100;
+  font-size: 40px;
+}
+.date{
+  font-size: 30px;
+}
+.venue{
+  font-size: 30px;
+}
+
+figure {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  margin-top: 50px;
+}
+
+.button a {
+  display: inline-block;
+  padding: 20px 50px;
+  background: rgb(255, 220, 156);
+  border-radius: 30px;
+  text-decoration: none;
+  color: rgb(95, 6, 6);
+  font-size: 40px;
+  line-height: 1.4;
+  font-weight: 800;
+  transition: all 0.5s linear;
+}
+
+.button a:hover {
+  background: rgb(125, 26, 26);
+  color: rgb(222, 188, 124);
+}
+/* end of first container */
+
+*
+
+
+.second-container .first-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.second-container .first-section h1 {
+  width: 50%;
+  /* margin-top: 10%; */
+  color: #ffffff;
+   padding: 5%;
+   font-size: 50px; 
+}
+
+.second-container .first-section h2 {
+  width:50%;
+  /* margin-top: 10%; */
+  color: #ffffff;
+  font-size: 40px;
+  /* padding: 5%; */
+}
+
+.second-section{
+  background-image: url(sec2.jpg);
+  width: 100%;
+  height: 400px;
+  background-position: bottom;
+  object-fit: cover;
+
+}
+.second-container{
+  box-sizing: border-box;
+  margin: 0;
+  /* padding: 0; */
+  background-color: rgb(20, 90, 90);
+  padding: 80px 60px;
+}
+
+/*start of third container*/
+
+
+
+.third-container{
+  padding: 20px;
+  background-color: rgb(217, 196, 168);
+}
+
+.third-container .secondpart{
+  display: flex;
+  grid-template-columns: auto auto auto; 
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  margin: 20%;
+  margin-bottom: 10px;
+  margin-left: 5px;
+} 
+.third-container .secondpart .one p {
+  font-size: small;
+  text-align: center;
+  padding: 40px;
+  font-weight: 200;
+  margin-top: 10;
+}
+
+.third-container .secondpart .two p {
+  font-size: small;
+  text-align: center;
+  padding: 40px;
+  font-weight: 200;
+}
+
+.third-container .secondpart .three p {
+  font-size: small;
+  text-align: center;
+  padding: 40px;
+  font-weight: 200;
+}
+/* .third-container .secondpart .one h2{
+  font-size: small;
+  text-align: center;
+  padding: 40px;
+  font-weight: 200;
+}
+.third-container .secondpart .two h2{
+  font-size: small;
+  text-align: center;
+  padding: 40px;
+  font-weight: 200;
+}
+.third-container .secondpart .three h2{
+  font-size: small;
+  text-align: center;
+  padding: 40px;
+  font-weight: 200;
+
+} */
+
+.fourth-container{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(10, 50, 48);
+  color: rgb(255, 255, 255);
+  
+}
+.fourth-container .right h1{
+
+  margin-bottom: 200px;
+  padding-right: 80px;
+  margin-top: 100px;
+}
+.fourth-container .right h2{
+  margin-bottom: 5px;
+}
+.fourth-container .right{
+  width: 700px;
+  padding-left: 200px;
+}
+.fourth-container .left{
+  background-image: url(sponsor.jpg);
+  width: 800px;
+  height: 500px;
+  background-position: bottom;
+  object-fit: cover;
+
+}
+.fifth-container{
+  background-color: rgb(182, 123, 35);
+  display: flex;
+}
+.fifth-container h1{
+  font-weight: bold;
+  color: #ffffff;
+  padding: 20px;
+}
+.fifth-container .personalinfo{
+  color: #ffffff;
+  padding: 20px;
+  line-height: 30px;
+}
+.fifth-container .contact{
+  color: #ffffff;
+  padding: 20px;
+  line-height: 30px;
+}
+.fifth-container .r{
+  width: 300px;
+}
+
+.fifth-container .l{
+  background-image: url(sponsor.jpg);
+  width: 500px;
+  background-size: cover;
+  margin-top: 200px;
+  height: 100px;
+}
+.fifth-container .r .botton2{
+  display: inline-block;
+  padding: 20px 50px;
+  background: rgb(255, 220, 156);
+  border-radius: 30px;
+  text-decoration: none;
+  color: rgb(95, 6, 6);
+  font-size: 40px;
+  line-height: 1.4;
+  font-weight: 800;
+  transition: all 0.5s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  .button a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    padding-bottom: 50px;
+  }
+
+  .content-wrapper,
+  figure {
+    width: 100%;
+  }
+
+  figure {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .button a {
+    text-align: center;
+  }
+}
+/*  */

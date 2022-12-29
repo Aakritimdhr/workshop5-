@@ -1,0 +1,105 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&family=Dancing+Script&family=PT+Serif&family=Playfair+Display&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-wrapper {
+  width: 50%;
+  background-color:rgb(177, 53, 53) ;
+  padding: 5%;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.1;
+  margin-bottom: 50px;
+  font-family: 'PT Serif', serif;
+  font-weight: 100;
+}
+
+
+h2 {
+  margin-bottom: 140px;
+  font-weight: 100;
+}
+
+figure {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  margin-top: 50px;
+}
+
+.button a {
+  display: inline-block;
+  padding: 20px 50px;
+  background: rgb(255, 220, 156);
+  border-radius: 30px;
+  text-decoration: none;
+  color: rgb(95, 6, 6);
+  font-size: 40px;
+  line-height: 1.4;
+  font-weight: 800;
+  transition: all 0.5s linear;
+}
+
+.button a:hover {
+  background: rgb(125, 26, 26);
+  color: rgb(222, 188, 124);
+}
+
+
+/*
+Responsive Web Design.
+-----------------------
+1024   - tablet
+768    - phone
+420    - phone portrait
+
+*/
+
+@media screen and (max-width: 1024px) {
+  .button a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    padding-bottom: 50px;
+  }
+
+  .content-wrapper,
+  figure {
+    width: 100%;
+  }
+
+  figure {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .button a {
+    text-align: center;
+  }
+}
+/*  */
